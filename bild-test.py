@@ -107,20 +107,9 @@ class Diskriminator(nn.Module):
             nn.Conv2d(D_HIDDEN * 8, 1, 4, 1, 0, bias = False),
             nn.Sigmoid()
         )
-       # self.classifier = self.main.classifier
-        self.gradient = None
 
-    def activations_hook(self, grad):
-        self.gradients = grad
-
-    def get_activations_gradient(self):
-        return self.gradients
-
-    def get_activations(self, x):
-        return self.main[-2]
 
     def forward(self, x):
-       # h = x.register_hook(self.activations_hook)
         x = self.main(x).view(-1, 1).squeeze(1)
         return x
 
@@ -196,20 +185,11 @@ if __name__ == '__main__':
 
                 netD = netD.cpu()
                 model = netD
-                target_layers = netD.main[-1]
-                print(target_layers)
+                target_layers = netD.main[-2]
 
-             #   img, _ = next(iter(dataloader))
                 img = cv2.imread('C:\\Users\\altipair\\Desktop\\bachelor\\ausgabe\\fake_sample_bild_{}.png'.format(epoch), 1)[:, :,::-1]
-
-            #    img = np.array(Image.open(requests.get(image, stream=True).raw))
-            #    img = cv2.resize(img, (224, 224))
                 img = np.float32(img) / 255
-
                 input_tensor = preprocess_image(img, mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-
-            #    pred = netD(img).argmax(dim=1)
-            #    pred[386, :].backward()
 
                 targets = None
 
