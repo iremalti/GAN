@@ -2,64 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb3ca88-a6e1-4f67-99d4-446a7ea22b1d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CAM/BÃ¤r_cam.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CAM/Frau_cam.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CAM/frau2_cam.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CAM/frau3_cam.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CAM/frau4_cam.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dataset_test.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Grad2n_cam.jpg" afterPath="$PROJECT_DIR$/elefant/Grad2n_cam.jpg" />
       <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_bild_0.png" afterPath="$PROJECT_DIR$/ausgabe/fake_sample_bild_0.png" />
       <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_bild_1.png" afterPath="$PROJECT_DIR$/ausgabe/fake_sample_bild_1.png" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_0.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_19.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_22.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_23.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/fake_sample_zahl_9.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/ausgabe/netD_0.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_0.pth" />
       <change beforePath="$PROJECT_DIR$/ausgabe/netD_1.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_1.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_10.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_10.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_11.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_11.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_12.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_12.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_13.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_13.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_14.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_14.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_15.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_15.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_16.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_16.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_17.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_17.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_18.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_18.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_19.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_19.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_2.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_2.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_20.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_20.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_21.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_21.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_22.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_22.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_23.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_23.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_24.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_24.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_3.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_3.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_4.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_4.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_5.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_5.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_6.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_6.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_7.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_7.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_8.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_8.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netD_9.pth" afterPath="$PROJECT_DIR$/ausgabe/netD_9.pth" />
       <change beforePath="$PROJECT_DIR$/ausgabe/netG_0.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_0.pth" />
       <change beforePath="$PROJECT_DIR$/ausgabe/netG_1.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_1.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_10.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_10.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_11.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_11.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_12.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_12.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_13.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_13.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_14.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_14.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_15.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_15.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_16.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_16.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_17.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_17.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_18.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_18.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_19.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_19.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_2.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_2.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_20.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_20.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_21.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_21.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_22.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_22.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_23.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_23.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_24.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_24.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_3.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_3.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_4.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_4.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_5.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_5.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_6.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_6.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_7.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_7.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_8.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_8.pth" />
-      <change beforePath="$PROJECT_DIR$/ausgabe/netG_9.pth" afterPath="$PROJECT_DIR$/ausgabe/netG_9.pth" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/real_sample_bild.png" afterPath="$PROJECT_DIR$/ausgabe/real_sample_bild.png" />
+      <change beforePath="$PROJECT_DIR$/ausgabe/real_sample_zahl.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/bild-test.py" afterPath="$PROJECT_DIR$/bild-test.py" />
-      <change beforePath="$PROJECT_DIR$/diskrim_erw.py" afterPath="$PROJECT_DIR$/diskrim_erw.py" />
-      <change beforePath="$PROJECT_DIR$/gradcam_cam.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradcam_cam_gb.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradcam_gb.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ele_test_copy.py" afterPath="$PROJECT_DIR$/ele_test_copy.py" />
+      <change beforePath="$PROJECT_DIR$/elefantleicht.py" afterPath="$PROJECT_DIR$/elefantleicht.py" />
+      <change beforePath="$PROJECT_DIR$/erweitere_cam.py" afterPath="$PROJECT_DIR$/erweitere_cam.py" />
+      <change beforePath="$PROJECT_DIR$/test_cam.jpg" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,34 +71,10 @@
       <file leaf-file-name="bild-test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bild-test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3451">
-              <caret line="203" column="60" lean-forward="false" selection-start-line="195" selection-start-column="16" selection-end-line="203" selection-end-column="60" />
+            <state relative-caret-position="-6">
+              <caret line="148" column="12" lean-forward="false" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bär.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bär.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="220" column="47" lean-forward="false" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#1297#2229#0" expanded="false" />
-                <element signature="e#2256#2480#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -120,20 +84,30 @@
         <entry file="file://$PROJECT_DIR$/elefantleicht.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="3" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diskrim_erw.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/diskrim_erw.py">
+      <file leaf-file-name="dataset_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataset_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+            <state relative-caret-position="397">
+              <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ele_test_copy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ele_test_copy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="114" column="16" lean-forward="true" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,8 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>args</find>
-      <find>path</find>
       <find>method</find>
       <find>args.use_cuda</find>
       <find>sys</find>
@@ -176,9 +148,11 @@
       <find>model</find>
       <find>numpy.random._examples.cython.extending</find>
       <find>deta</find>
-      <find>deta()</find>
       <find>dat</find>
       <find>datch</find>
+      <find>gradcam</find>
+      <find>deta()</find>
+      <find>i</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,12 +199,14 @@
         <option value="$PROJECT_DIR$/version1.py" />
         <option value="$PROJECT_DIR$/cam.py" />
         <option value="$PROJECT_DIR$/beispiel-ele.py" />
-        <option value="$PROJECT_DIR$/bild-test.py" />
-        <option value="$PROJECT_DIR$/elefantleicht.py" />
-        <option value="$PROJECT_DIR$/test 2.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/dcgan.py" />
         <option value="$PROJECT_DIR$/diskrim_erw.py" />
+        <option value="$PROJECT_DIR$/test 2.py" />
+        <option value="$PROJECT_DIR$/bild-test.py" />
+        <option value="$PROJECT_DIR$/elefantleicht.py" />
+        <option value="$PROJECT_DIR$/ele_test_copy.py" />
+        <option value="$PROJECT_DIR$/dataset_test.py" />
       </list>
     </option>
   </component>
@@ -320,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.diskrim_erw">
+  <component name="RunManager" selected="Python.dataset_test">
     <configuration name="bild-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,7 +315,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="bär" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dataset_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -351,13 +327,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="bachelor" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bär.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="diskrim_erw" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ele_test_copy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -369,7 +345,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="bachelor" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/diskrim_erw.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ele_test_copy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="elefantleicht" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bachelor" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/elefantleicht.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,25 +381,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="bachelor" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test 2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bachelor" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\altipair\Desktop\bachelor\Weg_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -413,18 +389,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.bild-test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.elefantleicht" />
       <item index="2" class="java.lang.String" itemvalue="Python.test 2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bär" />
-      <item index="4" class="java.lang.String" itemvalue="Python.diskrim_erw" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ele_test_copy" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dataset_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.diskrim_erw" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bär" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test 2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.bild-test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dataset_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ele_test_copy" />
+        <item index="2" class="java.lang.String" itemvalue="Python.elefantleicht" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bild-test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test 2" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +423,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -458,24 +434,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14315937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35405406" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2027027" sideWeight="0.58462626" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.49717912" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30675676" sideWeight="0.5655853" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.49717912" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12764457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28648648" sideWeight="0.49444443" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50282085" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28648648" sideWeight="0.5959097" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30675676" sideWeight="0.43441465" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -505,9 +480,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cam.py</url>
+          <url>file://$PROJECT_DIR$/erweitere_cam.py</url>
           <line>98</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bild-test.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/elefantleicht.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bild-test.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/elefantleicht.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -517,7 +512,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -525,33 +520,16 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ClassifierOutputTarget</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dcgan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="93" column="9" lean-forward="false" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bild-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="202" column="19" lean-forward="false" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catdog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bär.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -758,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,23 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beispiel-ele.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test 2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="91" />
           <folding />
         </state>
       </provider>
@@ -825,26 +787,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elefant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/version1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elefant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="220" column="47" lean-forward="false" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python39/site-packages/pytorch_grad_cam/utils/model_targets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bär.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -857,50 +837,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elefantleicht.py">
+    <entry file="file://$PROJECT_DIR$/diskrim_erw.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bär.py">
+    <entry file="file://$PROJECT_DIR$/Weg_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="-329">
+          <caret line="214" column="51" lean-forward="false" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erweitere_cam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beispiel-ele.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ele_test_copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="114" column="16" lean-forward="true" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elefantleicht.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bild-test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="203" column="60" lean-forward="false" selection-start-line="195" selection-start-column="16" selection-end-line="203" selection-end-column="60" />
+        <state relative-caret-position="-6">
+          <caret line="148" column="12" lean-forward="false" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/dataset_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="220" column="47" lean-forward="false" selection-start-line="220" selection-start-column="47" selection-end-line="220" selection-end-column="47" />
+        <state relative-caret-position="397">
+          <caret line="38" column="66" lean-forward="true" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1297#2229#0" expanded="false" />
-            <element signature="e#2256#2480#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diskrim_erw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

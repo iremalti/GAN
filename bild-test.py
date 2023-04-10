@@ -16,6 +16,7 @@ from pytorch_grad_cam.utils.image import show_cam_on_image, \
     preprocess_image
 from PIL import Image
 import requests
+from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 
 
 CUDA = True
@@ -36,17 +37,17 @@ lr = 2e-4
 seed = 1
 
 # utils.clear_folder(OUT_PATH)
-print("Logging to {}\n".format(LOG_FILE))
+#print("Logging to {}\n".format(LOG_FILE))
 #sys.stdout = utils.StdOut(LOG_FILE)
 CUDA = CUDA and torch.cuda.is_available()
-print("Cuda is available = ", torch.cuda.is_available())
+#print("Cuda is available = ", torch.cuda.is_available())
 
-print("Pytorch version: {} ".format(torch.__version__))
-if CUDA:
-    print("CUDA version: {}\n".format(torch.version.cuda))
+#print("Pytorch version: {} ".format(torch.__version__))
+#if CUDA:
+ #   print("CUDA version: {}\n".format(torch.version.cuda))
 if seed is None:
     seed = np.random.randint(1, 10000)
-print("Random Seed: ", seed)
+#print("Random Seed: ", seed)
 np.random.seed(seed)
 torch.manual_seed(seed)
 if CUDA:
@@ -118,13 +119,13 @@ if __name__ == '__main__':
 
     netG = Generator().to(device)
     netG.apply(weights_init)
-    print(netG)
+ #   print(netG)
 
     netD = Diskriminator().to(device)
     netD.apply(weights_init)
-    print(netD)
+   # print(netD)
 
-    print(netD.main[-2])
+  #  print(netD.main[-2])
 
     criterion = nn.BCELoss()
 
@@ -183,22 +184,39 @@ if __name__ == '__main__':
                     torch.save(netG.state_dict(), os.path.join(OUT_PATH, 'netG_{}.pth'.format(epoch)))
                     torch.save(netD.state_dict(), os.path.join(OUT_PATH, 'netD_{}.pth'.format(epoch)))
 
-                netD = netD.cpu()
+               # netD = netD.cpu()
                 model = netD
-                target_layers = netD.main[-2]
+                target_layers = []
+                target_layers.append(netD.main[-2])
 
-                img = cv2.imread('C:\\Users\\altipair\\Desktop\\bachelor\\ausgabe\\fake_sample_bild_{}.png'.format(epoch), 1)[:, :,::-1]
+
+              #  img = cv2.imread('C:\\Users\\altipair\\Desktop\\bachelor\\ausgabe\\fake_sample_bild_{}.png'.format(epoch), 1)[:, :,::-1]
+
+                img = cv2.imread('C:\\Users\\altipair\\Desktop\\bachelor\\imagenet\\000001.jpg', 1)[:, :, ::-1]
+                img = cv2.resize(img, (224, 224))
                 img = np.float32(img) / 255
-                input_tensor = preprocess_image(img, mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+                input_tensor = preprocess_image(img, mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
 
-                targets = None
+               # num_classes = len(dataset.classes)
+              #  print("Number of classes:", num_classes)
+                targets =None # wählt die klasse mit der höchsten wahrscheinlichkeit der letzten schicht
+               # targets = [ClassifierOutputTarget(20)]  # zahl ist die anzahl von klassen zwischen denen unterschieden wird zb 20 hunderassen
 
-                with GradCAM(model=model, target_layers=target_layers, use_cuda= True) as cam:
-                    cam.batch_size = 32
+                with GradCAM(model=model, target_layers=target_layers, use_cuda= CUDA) as cam:
+                    cam.batch_size = 1
+                   # print(input_tensor.shape)
+                   # print(cam(input_tensor=input_tensor, targets=targets, aug_smooth=False, eigen_smooth=False))
                     grayscale_cam = cam(input_tensor=input_tensor,targets=targets,aug_smooth=False,eigen_smooth=False)
+                   # print(grayscale_cam.shape)
                     grayscale_cam = grayscale_cam[0, :]
+                    # grayscale_cam = grayscale_cam.detach().numpy()
+
+                    # Übertragen der cam auf das Eingabebild
                     cam_image = show_cam_on_image(img, grayscale_cam, use_rgb=True)
+
+                    # Farbbild wird konvergiert ist ein muss[umkehren]
                     cam_image = cv2.cvtColor(cam_image, cv2.COLOR_RGB2BGR)
 
-                    output_tensor = netD(input_tensor)
-                    last_layer_output = output_tensor[:, -2]  # Ausgabe der vorletzten Schicht extrahieren
+                    # Ausgabe im Ordner Cam speichern
+                    cv2.imwrite(os.path.join(output_folder, 'Grad_cam.jpg'), cam_image)
+

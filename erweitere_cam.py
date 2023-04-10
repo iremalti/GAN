@@ -61,7 +61,7 @@ def get_args():
 
 
 if __name__ == '__main__':
-    """ python cam.py -image-path <path_to_image>
+    """ python erweitere_cam.py -image-path <path_to_image>
     Example usage of loading an image, and computing:
         1. CAM
         2. Guided Back Propagation
