@@ -27,14 +27,14 @@ if __name__ == '__main__':
                                    transforms.ToTensor(),
                                    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
                                ]))
-    assert dataset
-    dataloader = torch.utils.data.DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4)
+  #  assert dataset
+  #  dataloader = torch.utils.data.DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4)
 
     model = models.resnet50(pretrained=True)
     target_layers = [model.layer4]
 
-    for i, data in enumerate(dataloader):
-        img_path, _ = data[i] # Pfad zum Bild und Klassenlabel ignorieren
+    for i  in range(len(dataset)):
+        img_path, _ = dataset.imgs[i] # Pfad zum Bild und Klassenlabel ignorieren
         img_path_str = str(img_path)
         img = cv2.imread(img_path_str, 1)[:, :, ::-1] # BGR -> RGB
         img = cv2.resize(img, (224, 224))
@@ -43,9 +43,7 @@ if __name__ == '__main__':
         # Hier weitere Verarbeitung mit dem Input Tensor durchführen
 
 
-    #img = cv2.imread('C:\\Users\\altipair\\Desktop\\bachelor\\imagenet\\000001.jpg',1)[:, :, ::-1]
-    #img = np.float32(img) / 255
-    #input_tensor = preprocess_image(img, mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
+         #img = cv2.imread('C:\\Users\\altipair\\Desktop\\bachelor\\imagenet\\000001.jpg',1)[:, :, ::-1]
 
         targets= None
         with GradCAM(model=model,target_layers=target_layers,use_cuda=torch.cuda.is_available()) as cam:
@@ -58,7 +56,8 @@ if __name__ == '__main__':
             cam_image = show_cam_on_image(img, grayscale_cam, use_rgb=True)
             cam_image = cv2.cvtColor(cam_image, cv2.COLOR_RGB2BGR)
 
-        cv2.imwrite(os.path.join(output_folder, 'frau4_cam.jpg'), cam_image)
+        cv2.imwrite(os.path.join(output_folder, '{}_cam.jpg'.format(i)), cam_image)
+
 
 
 

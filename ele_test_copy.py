@@ -174,27 +174,29 @@ if __name__ == '__main__':
                     torch.save(netD.state_dict(), os.path.join(OUT_PATH, 'netD_{}.pth'.format(epoch)))
 
 
-
-
     model = netD
     target_layers = []
     target_layers.append(netD.main[-2])
 
+    for i in range(len(dataset)):
+        img_path, _ = dataset.imgs[i]  # Pfad zum Bild und Klassenlabel ignorieren
+        img_path_str = str(img_path)
+        img = cv2.imread(img_path_str, 1)[:, :, ::-1]  # BGR -> RGB
+        img = cv2.resize(img, (224, 224))
+        img = np.float32(img) / 255
+        input_tensor = preprocess_image(img, mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
 
-    img = cv2.imread('C:\\Users\\altipair\\Desktop\\bachelor\\imagenet\\000001.jpg',1)[:, :, ::-1]
-    img = np.float32(img) / 255
-    input_tensor = preprocess_image(img, mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
 
-    targets= None
-    with GradCAM(model=model,target_layers=target_layers,use_cuda=torch.cuda.is_available()) as cam:
-        cam.batch_size = 32
-        grayscale_cam = cam(input_tensor=input_tensor,
-                            targets=targets,
-                            aug_smooth=False,
-                            eigen_smooth=False)
-        grayscale_cam = grayscale_cam[0, :]
-        cam_image = show_cam_on_image(img, grayscale_cam, use_rgb=True)
-        cam_image = cv2.cvtColor(cam_image, cv2.COLOR_RGB2BGR)
+        targets = None
+        with GradCAM(model=model, target_layers=target_layers, use_cuda=torch.cuda.is_available()) as cam:
+            cam.batch_size = 32
+            grayscale_cam = cam(input_tensor=input_tensor,
+                                targets=targets,
+                                aug_smooth=False,
+                                eigen_smooth=False)
+            grayscale_cam = grayscale_cam[0, :]
+            cam_image = show_cam_on_image(img, grayscale_cam, use_rgb=True)
+            cam_image = cv2.cvtColor(cam_image, cv2.COLOR_RGB2BGR)
 
-    cv2.imwrite(os.path.join(output_folder, 'frau4_cam.jpg'), cam_image)
+        cv2.imwrite(os.path.join(output_folder, '{}_cam.jpg'.format(i)), cam_image)
 
