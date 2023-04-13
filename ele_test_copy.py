@@ -9,7 +9,7 @@ import torchvision.transforms as transforms
 import torchvision.utils as vutils
 import cv2
 from pytorch_grad_cam import GradCAM
-from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
+from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget, BinaryClassifierOutputTarget
 from typing import  List
 from pytorch_grad_cam.activations_and_gradients import ActivationsAndGradients
 from pytorch_grad_cam.utils.image import show_cam_on_image, \
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     assert dataset
     dataloader = torch.utils.data.DataLoader(dataset, batch_size = BATCH_SIZE, shuffle = True, num_workers = 4)
 
-    viz_noise = torch.randn(BATCH_SIZE, Z_DIM, 1, 1, device = device)
+    viz_noise = torch.randn(BATCH_SIZE, Z_DIM, 1, 1, device = device)   #Zufälliges rauschen
     for epoch in range (EPOCH_NUM):
         for i, data in enumerate(dataloader):
             x_real = data[0].to(device)
@@ -165,10 +165,10 @@ if __name__ == '__main__':
                                                                                                 loss_G.mean().item(), ))
 
             if i % 100 == 0:
-                ...
                 vutils.save_image(x_real, os.path.join(OUT_PATH, 'real_sample_bild.png'), normalize = True)
                 with torch.no_grad():
                     viz_sample = netG(viz_noise)
+                    # erstes generiertes Bild
                     vutils.save_image(viz_sample, os.path.join(OUT_PATH, 'fake_sample_bild_{}.png'.format(epoch)),normalize=True)
                     torch.save(netG.state_dict(), os.path.join(OUT_PATH, 'netG_{}.pth'.format(epoch)))
                     torch.save(netD.state_dict(), os.path.join(OUT_PATH, 'netD_{}.pth'.format(epoch)))
@@ -187,7 +187,7 @@ if __name__ == '__main__':
         input_tensor = preprocess_image(img, mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
 
 
-        targets = None
+        targets = [BinaryClassifierOutputTarget(0)]
         with GradCAM(model=model, target_layers=target_layers, use_cuda=torch.cuda.is_available()) as cam:
             cam.batch_size = 32
             grayscale_cam = cam(input_tensor=input_tensor,
