@@ -15,9 +15,9 @@ from pytorch_grad_cam.utils.image import show_cam_on_image, \
 
 
 CUDA = True
-DATA_PATH = 'C:\\Users\\altipair\\Desktop\\Data\\Bilder'
-OUT_PATH = 'C:\\Users\\altipair\\Desktop\\bachelor\\ausgabe'
-output_folder = 'C:\\Users\\altipair\\Desktop\\bachelor\\cam'
+DATA_PATH = 'C:\\Users\\altipair\\Desktop\\Data\\CelebA'
+OUT_PATH = 'C:\\Users\\altipair\\Desktop\\bachelor\\ausgabe_gan'
+output_folder = 'C:\\Users\\altipair\\Desktop\\bachelor\\100er_Schritte'
 LOG_FILE = os.path.join(OUT_PATH, 'log.txt')
 BATCH_SIZE = 128
 IMAGE_CHANNEL = 3
@@ -25,7 +25,7 @@ Z_DIM = 100
 G_HIDDEN = 64
 X_DIM = 64
 D_HIDDEN = 64
-EPOCH_NUM = 2
+EPOCH_NUM = 25
 REAL_LABEL = 1.
 FAKE_LABEL = 0.
 lr = 2e-4
@@ -180,7 +180,7 @@ if __name__ == '__main__':
             #optimierungsschritt
             optimizerG.step()
 
-            if i :
+            if i % 100 == 0:
                 print('Epoche {}[{}/{}] loss_D_real: {:.4f} loss_D_fake: {:.4f} loss_G: {:.4f}'.format(epoch, i, len(dataloader),
                                                                                                 loss_D_real.mean().item(),
                                                                                                 loss_D_fake.mean().item(),
@@ -213,8 +213,9 @@ if __name__ == '__main__':
                 vutils.save_image(x_real, os.path.join(OUT_PATH, 'real_sample_bild.png'), normalize = True)
                 with torch.no_grad():
                     viz_sample = netG(viz_noise)
-
+                    #Ausgabe des Zufälligenrauschen mit dem trainierten Generator bei jeder Epoche letzter Schritt wird gespeichert
                     vutils.save_image(viz_sample, os.path.join(OUT_PATH, 'fake_sample_bild_{}.png'.format(epoch)),normalize=True)
+                    # letzte net-Datei wird in der epoche gespeichert
                     torch.save(netG.state_dict(), os.path.join(OUT_PATH, 'netG_{}.pth'.format(epoch)))
                     torch.save(netD.state_dict(), os.path.join(OUT_PATH, 'netD_{}.pth'.format(epoch)))
 

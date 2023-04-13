@@ -66,8 +66,8 @@ class Generator (nn.Module):
             nn.ConvTranspose2d(G_HIDDEN, IMAGE_CHANNEL, 4, 2, 1, bias = False),
             nn.Tanh()
         )
-    def forward(self, input):
-        return self.main(input)
+    def forward(self, x):
+        return self.main(x)
 
 def weights_init(m):
     classname = m.__class__.__name__
