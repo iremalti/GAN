@@ -21,7 +21,7 @@ from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 
 CUDA = True
 DATA_PATH = 'C:\\Users\\altipair\\Desktop\\Data\\Bilder'
-OUT_PATH = 'C:\\Users\\altipair\\Desktop\\bachelor\\ausgabe'
+OUT_PATH = 'C:\\Users\\altipair\\Desktop\\bachelor\\ausgabe_gan'
 output_folder = 'C:\\Users\\altipair\\Desktop\\bachelor\\CAM'
 LOG_FILE = os.path.join(OUT_PATH, 'log.txt')
 BATCH_SIZE = 128
