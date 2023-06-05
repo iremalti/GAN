@@ -30,9 +30,19 @@ REAL_LABEL = 1.
 FAKE_LABEL = 0.
 lr = 2e-4
 seed = 1
+
+# utils.clear_folder(OUT_PATH)
+#print("Logging to {}\n".format(LOG_FILE))
+#sys.stdout = utils.StdOut(LOG_FILE)
 CUDA = CUDA and torch.cuda.is_available()
+#print("Cuda is available = ", torch.cuda.is_available())
+
+#print("Pytorch version: {} ".format(torch.__version__))
+#if CUDA:
+ #   print("CUDA version: {}\n".format(torch.version.cuda))
 if seed is None:
     seed = np.random.randint(1, 10000)
+#print("Random Seed: ", seed)
 np.random.seed(seed)
 torch.manual_seed(seed)
 if CUDA:
@@ -108,7 +118,7 @@ if __name__ == '__main__':
     netD = Diskriminator().to(device)
     netD.apply(weights_init)
    # print(netD)
-
+    #  print(netD.main[-2])
 
     criterion = nn.BCELoss()
 
